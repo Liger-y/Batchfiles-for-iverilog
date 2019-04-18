@@ -5,13 +5,14 @@ output ;
 endmodule
 
 /*
-module endmodule 
+-Notepad++自动补全-
+module endmodule
 assign wire reg
-begin end 
+begin end
 initial always
-function endfunction 
+function endfunction
 task endtask
 case default endcase
-parameter 
+parameter
 posedge negedge
 */

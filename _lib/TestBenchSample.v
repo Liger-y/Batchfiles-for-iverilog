@@ -1,7 +1,7 @@
 `timescale 1ns/1ns
 module TB;
 //input
-
+reg clk;
 // Instantial Mux8
 Mux8 D1();
 initial
@@ -28,13 +28,14 @@ initial
 endmodule 
 
 /*
-module endmodule 
+-Notepad++自动补全-
+module endmodule
 assign wire reg
-begin end 
+begin end
 initial always
-function endfunction 
+function endfunction
 task endtask
 case default endcase
-parameter 
+parameter
 posedge negedge
 */
