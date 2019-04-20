@@ -2,7 +2,7 @@
 module TB;
 //input
 reg clk;
-// Instantial Mux8
+
 Mux8 D1();
 initial
 	begin
