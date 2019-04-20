@@ -15,5 +15,4 @@ vvp -n %PrjName% -lxt2
 @if exist *.lxt2 (del .\*.lxt2)
 @ren %~dp0"test.vcd" test.lxt2
 
-::gtkwave test.lxt2
-@pause
+gtkwave test.lxt2
