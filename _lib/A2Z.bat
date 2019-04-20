@@ -13,6 +13,6 @@ vvp -n %PrjName% -lxt2
 @pause
 
 @if exist *.lxt2 (del .\*.lxt2)
-@ren %~dp0"test.vcd" test.lxt2
+@ren %~dp0"test.vcd" wave.lxt2
 
-gtkwave test.lxt2
+gtkwave wave.lxt2
