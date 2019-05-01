@@ -17,7 +17,7 @@ if exist .\%PrjName% (
 echo Prj aready exist!
 goto start)
 
-echo 功能描述:
+echo Describtion:
 set /p CodeFunction=
 
 echo %PrjName%
@@ -26,8 +26,8 @@ mkdir .\%PrjName%
 
 copy .\_lib\* .\%PrjName%\
 
-echo 创建时间：%year%/%month%/%day%_%hour_ten%%hour_one%:%minute%:%second%>.\%PrjName%\readme.txt
-echo 功能描述：%CodeFunction%>>.\%PrjName%\readme.txt
+echo Describtion: %CodeFunction%>>.\%PrjName%\readme.txt
+echo Time: %year%/%month%/%day%_%hour_ten%%hour_one%:%minute%:%second%>.\%PrjName%\readme.txt
 
 ren %~dp0%PrjName%\"MainFileSample.v" %PrjName%".v"
 ren %~dp0%PrjName%\"TestBenchSample.v" %PrjName%"_tb.v"
