@@ -1,4 +1,6 @@
 @echo off
+title IVerilog and GTKWave
+mode con cols=60 lines=30
 color 0f
 
 :start
@@ -16,7 +18,7 @@ if %errorlevel% == 0 (
     echo             and
     echo  Press Enter to compile again.
     echo -------------------------------
-    pause
+    set /p=
     cls
     goto start
 )
