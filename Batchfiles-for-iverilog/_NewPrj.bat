@@ -16,8 +16,7 @@ echo *****************
 echo 1-empty prj
 echo 2-FSM-Template
 echo *****************
-echo.
-set /p select="#Select:"
+set /p select="Select:"
 
 :start
 set /p PrjName="New PrjName:"
